@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact Us | Sam Rivera, UI/UX Designer</title>
+<link rel="stylesheet" href="css/style.css">
+<script>try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.theme=t;}catch(e){}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <a class="logo" href="index.html"><img class="mark" src="images/avatar.png" alt="" width="40" height="40">Sam Rivera</a>
+  <div class="controls">
+    <button id="theme-toggle" class="icon-btn" aria-label="Switch to dark mode" aria-pressed="false"><span id="theme-icon">&#9790;</span></button>
+    <button id="menu-btn" class="icon-btn" aria-label="Open menu" aria-expanded="false" aria-controls="menu"><span class="bars"></span></button>
+  </div>
+  <nav id="menu" class="menu" aria-label="Main menu">
+    <a href="index.html">Home</a>
+    <a href="about.html">About Me</a>
+    <a href="contact.html" class="active">Contact Us</a>
+  </nav>
+</header>
+<main id="main">
+  <section class="section contact">
+    <article>
+      <p class="eyebrow">Contact us</p>
+      <h1>Let's work together.</h1>
+      <p>Tell me about your project. I reply within two working days.</p>
+      <p><strong>Email:</strong> hello@samrivera.example<br><strong>Based in:</strong> Lisbon, working worldwide</p>
+    </article>
+    <form id="contact-form" novalidate>
+      <label for="name">Name</label>
+      <input id="name" name="name" type="text" required>
+      <p class="error" id="name-error" role="alert"></p>
+      <label for="email">Email</label>
+      <input id="email" name="email" type="email" required>
+      <p class="error" id="email-error" role="alert"></p>
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" required minlength="10"></textarea>
+      <p class="error" id="message-error" role="alert"></p>
+      <button class="btn" type="submit">Send message</button>
+      <p class="success" id="form-success" role="status"></p>
+    </form>
+  </section>
+</main>
+<footer class="site-footer"><p>&copy; 2026 Sam Rivera. A fictional client for a class project.</p></footer>
+<script src="js/main.js"></script>
+<script src="js/validation.js"></script>
+</body>
+</html>

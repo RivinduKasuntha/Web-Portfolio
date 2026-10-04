@@ -1,0 +1,50 @@
+[
+ {
+  "id": 1,
+  "title": "Bitx: Crypto Dashboard",
+  "category": "Web App",
+  "color": "#323a46",
+  "description": "A trading dashboard that makes live prices and portfolio changes easy to scan.",
+  "image": "images/bitx.svg"
+ },
+ {
+  "id": 2,
+  "title": "Fresh: Grocery Delivery",
+  "category": "Mobile App",
+  "color": "#74a9ac",
+  "description": "A mobile ordering flow that gets shoppers from search to checkout in four taps.",
+  "image": "images/fresh.svg"
+ },
+ {
+  "id": 3,
+  "title": "Nomad: Travel Planner",
+  "category": "Mobile App",
+  "color": "#ff5722",
+  "description": "Trip planning with shared itineraries, maps and offline tickets.",
+  "image": "images/nomad.svg"
+ },
+ {
+  "id": 4,
+  "title": "Pulse: Fitness Tracker",
+  "category": "Web App",
+  "color": "#323a46",
+  "description": "Workout analytics with weekly goals and clear progress charts.",
+  "image": "images/pulse.svg"
+ },
+ {
+  "id": 5,
+  "title": "Oak & Co: Brand Identity",
+  "category": "Branding",
+  "color": "#5a6573",
+  "description": "Logo, colors and type system for a furniture studio.",
+  "image": "images/oak.svg"
+ },
+ {
+  "id": 6,
+  "title": "Leaf: Plant Care Shop",
+  "category": "Branding",
+  "color": "#8bb9bb",
+  "description": "Brand and storefront design for an online plant shop.",
+  "image": "images/leaf.svg"
+ }
+]

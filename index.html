@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Home | Sam Rivera, UI/UX Designer</title>
+<link rel="stylesheet" href="css/style.css">
+<script>try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.theme=t;}catch(e){}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <a class="logo" href="index.html"><img class="mark" src="images/avatar.png" alt="" width="40" height="40">Sam Rivera</a>
+  <div class="controls">
+    <button id="theme-toggle" class="icon-btn" aria-label="Switch to dark mode" aria-pressed="false"><span id="theme-icon">&#9790;</span></button>
+    <button id="menu-btn" class="icon-btn" aria-label="Open menu" aria-expanded="false" aria-controls="menu"><span class="bars"></span></button>
+  </div>
+  <nav id="menu" class="menu" aria-label="Main menu">
+    <a href="index.html" class="active">Home</a>
+    <a href="about.html">About Me</a>
+    <a href="contact.html">Contact Us</a>
+  </nav>
+</header>
+<main id="main">
+  <section class="hero">
+    <div class="hero-text">
+      <p class="eyebrow">UI/UX Designer &amp; Front-end Developer</p>
+      <h1>Hi, I'm Sam. I design interfaces people enjoy using.</h1>
+      <p class="lead">I turn complex ideas into clear, friendly products for web and mobile.</p>
+      <a class="btn" href="#projects">See my work</a>
+      <a class="btn ghost" href="contact.html">Contact me</a>
+    </div>
+    <div class="hero-art" aria-hidden="true"><span class="s1"></span><span class="s2"></span><span class="s3"></span></div>
+  </section>
+
+  <section class="stats-band">
+    <p><strong>10+</strong> Years experience</p>
+    <p><strong>64+</strong> Projects done</p>
+    <p><strong>151+</strong> Happy clients</p>
+  </section>
+
+  <section class="section" id="projects">
+    <h2>Selected projects</h2>
+    <div class="filters" id="filters" aria-label="Filter projects"></div>
+    <div class="gallery" id="gallery" aria-live="polite">Loading projects...</div>
+  </section>
+</main>
+<dialog id="modal" class="modal">
+  <article>
+    <img id="modal-img" alt="">
+    <h2 id="modal-title"></h2>
+    <p id="modal-desc"></p>
+    <button class="btn" id="modal-close">Close</button>
+  </article>
+</dialog>
+<footer class="site-footer"><p>&copy; 2026 Sam Rivera. A fictional client for a class project.</p></footer>
+<script src="js/main.js"></script>
+</body>
+</html>

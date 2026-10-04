@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About Me | Sam Rivera, UI/UX Designer</title>
+<link rel="stylesheet" href="css/style.css">
+<script>try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.theme=t;}catch(e){}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <a class="logo" href="index.html"><img class="mark" src="images/avatar.png" alt="" width="40" height="40">Sam Rivera</a>
+  <div class="controls">
+    <button id="theme-toggle" class="icon-btn" aria-label="Switch to dark mode" aria-pressed="false"><span id="theme-icon">&#9790;</span></button>
+    <button id="menu-btn" class="icon-btn" aria-label="Open menu" aria-expanded="false" aria-controls="menu"><span class="bars"></span></button>
+  </div>
+  <nav id="menu" class="menu" aria-label="Main menu">
+    <a href="index.html">Home</a>
+    <a href="about.html" class="active">About Me</a>
+    <a href="contact.html">Contact Us</a>
+  </nav>
+</header>
+<main id="main">
+  <section class="section about">
+    <img class="about-photo" src="images/about.jpg" alt="Portrait of Sam Rivera">
+    <article>
+      <p class="eyebrow">About me</p>
+      <h1>Designer who codes.</h1>
+      <p>I'm Sam Rivera, a UI/UX designer with ten years of experience in fintech, travel and retail. I research, sketch, prototype and build, so my designs work in the browser and not only on a canvas.</p>
+      <p>I believe good design is clear, accessible and kind to the person using it.</p>
+    </article>
+  </section>
+  <section class="section">
+    <h2>Skills</h2>
+    <ul class="skills">
+      <li><span>UI Design</span><div class="bar"><i style="--w:95%"></i></div></li>
+      <li><span>UX Research</span><div class="bar"><i style="--w:85%"></i></div></li>
+      <li><span>Prototyping</span><div class="bar"><i style="--w:90%"></i></div></li>
+      <li><span>HTML, CSS &amp; JavaScript</span><div class="bar"><i style="--w:80%"></i></div></li>
+    </ul>
+  </section>
+  <section class="section">
+    <h2>Experience</h2>
+    <div class="timeline">
+      <article><h3>Senior Product Designer</h3><p>BrightPay, 2022 to now</p></article>
+      <article><h3>UX Designer</h3><p>Nomad Labs, 2018 to 2022</p></article>
+      <article><h3>Junior Designer</h3><p>Studio North, 2016 to 2018</p></article>
+    </div>
+  </section>
+</main>
+<footer class="site-footer"><p>&copy; 2026 Sam Rivera. A fictional client for a class project.</p></footer>
+<script src="js/main.js"></script>
+</body>
+</html>
